@@ -1,2 +1,6 @@
 # Discrete-Mega-Project
-Discrete Project From Group 1 . Members include 1.Muhammad Hussnain 2.Abdullah Bin Nazar 3.Mudassar Hasan
+Discrete Project From Group 1.
+<br> Members include <br>
+1.Muhammad Hussnain <br>
+2.Abdullah Bin Nazar <br>
+3.Mudassar Hasan
