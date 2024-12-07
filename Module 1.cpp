@@ -1,14 +1,14 @@
 #include <iostream>
+#include<unordered_map>
 #include <fstream>
 #include <sstream>
 using namespace std;
-void readData(string st[], string f[][5], const string& filePath, int &SIZE)
+void readdata(string st[], string f[][5],int SIZE)
 {
-    ifstream in("C:\\Users\\Husnain\\3D Objects\\discrete\\discrete.csv");
+    ifstream file("dataa.csv");
     string line;
     int i = 0;
-
-    while (i < SIZE && getline(in, line))
+    while (i < SIZE && getline(file, line))
     {
         stringstream ss(line);
         getline(ss, st[i], ',');
@@ -21,48 +21,44 @@ void readData(string st[], string f[][5], const string& filePath, int &SIZE)
         } while (j < 5);
         i++;
     }
-    in.close();
+    file.close();
 }
 
-void countFriends(const string st[], const string f[][5], int friendcout[], int &SIZE)
+void countfriends(string st[], string f[][5], int friendcout[], int SIZE)
 {
-    for (int i = 0; i < SIZE;  i++) //colums
-    {
-       for (int j = 0; j < SIZE; j++) //for checking all students
+    unordered_map<string, int> friendcountMap;
+    for (int i = 0; i < SIZE; i++)
         {
-          for(int k = 0; k<5; k++) // for friends
-            {
-                if (f[j][k] == st[i])
+        for (int j = 0; j < 5; j++)
+         {
+            if (!f[i][j].empty())
                 {
-                    friendcout[i]++;
-                }
+                friendcountMap[f[i][j]]++;
             }
         }
     }
-}
 
-int findMostPopular(const string st[], const int friendcout[],int &SIZE, int &maxFriends)
-{
-    int maxIndex = 0;
-    int i = 0;
-    do
-    {
-        if (friendcout[i] > maxFriends)
+    for (int i = 0; i < SIZE; i++)
         {
-            maxFriends = friendcout[i];
-            maxIndex = i;
-        }
-        i++;
-    } while (i < SIZE);
-
-    return maxIndex;
+        friendcout[i] = friendcountMap[st[i]];
+       }
 }
 
-void printMostPopular(const string st[], int friendcout[], int &SIZE, int &maxFriends)
+void popular(string st[], int friendcout[], int SIZE)
 {
-    int maxIndex = findMostPopular(st, friendcout, SIZE, maxFriends);
-    cout << st[maxIndex] << " is the most popular student with " << friendcout[maxIndex] << " friends." << endl;
+    int maxindex = 0;
+    int maxfriends = friendcout[0];
+    for (int i = 1; i < SIZE; i++)
+        {
+        if (friendcout[i] > maxfriends)
+        {
+            maxfriends = friendcout[i];
+            maxindex = i;
+        }
+    }
+    cout << st[maxindex] << " is the most popular student with " << friendcout[maxindex] << " friends." << endl;
 }
+
 int main()
 {
      int SIZE = 41;
@@ -70,10 +66,9 @@ int main()
     string f[SIZE][5];
      int maxFriends = 0;
     int friendcout[SIZE] = {0};
-    string filePath;
-    readData(st, f, filePath, SIZE);
-    countFriends(st, f, friendcout, SIZE);
+    readdata(st, f, SIZE);
+    countfriends(st, f, friendcout, SIZE);
     cout<<"MOST POPULAR STUDENT IN CLASS "<<endl;
-    printMostPopular(st, friendcout, SIZE, maxFriends);
+     popular(st, friendcout, SIZE);
     return 0;
 }
