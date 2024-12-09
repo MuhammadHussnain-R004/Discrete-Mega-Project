@@ -8,7 +8,7 @@ struct Friends{
     string student1,student2;
 };
 void readData(string mainstudent[], string friendlist[][5]) {
-    ifstream friendsfile("C:\\Users\\Husnain\\3D Objects\\discrete\\discrete.csv");
+    ifstream friendsfile("C:\\Users\\Husnain\\3D Objects\\discrete\\discrete.csv"); //filepath
     string line;
     int i = 0;
     while (i < SIZE && getline(friendsfile, line)) {
