@@ -47,14 +47,12 @@ int main()
                 break;
             }
         }
-<<<<<<< HEAD
         if (Symmetric==false) {
             cout<< allFriendships[i].student1<< " and " << allFriendships[i].student2<< endl;
-=======
+
         if (isSymmetric==false) {
             cout<< allFriendships[i].student1<< " & " << allFriendships[i].student2<< endl;
             countstudents++;
->>>>>>> 320b4d4a6349c06df3149b1ab7fc1f088a080a5d
         }
     } cout<<countstudents<<" Students have Asymmetriic Pairs in Class.";
     return 0;
