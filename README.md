@@ -45,7 +45,8 @@ Two major output from this code<br>
 1.Print Asymmetric friends pair in class.<br>
 2.Calculate number of students include in asymmatric friendship.<br>
 <h8>End Of Module 2</h8> <br>
-<h9> MODULE 3 </h9> <br>
+    
+<b> MODULE 3 </b> <br>
 <p>
  <b> Step 1 </b> <br>
    Read the data from the file and store it in arrays as did in first 2 modules. 
