@@ -44,7 +44,7 @@ If not, it marks the pair as asymmetric and displays it.<br>
 Two major output from this code<br>
 1.Print Asymmetric friends pair in class.<br>
 2.Calculate number of students include in asymmatric friendship.<br>
-<h8>End Of Module 2</h8>
+<h8>End Of Module 2</h8> <br>
 <h9> MODULE 3 </h9> <br>
 <p>
  <b> Step 1 </b> <br>
@@ -58,6 +58,7 @@ Two major output from this code<br>
   <b> Step 4 </b> <br>
   Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.
   <b> ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </b> <br> 
+</p>
    
 
 
