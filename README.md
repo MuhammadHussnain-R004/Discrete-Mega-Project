@@ -45,4 +45,19 @@ Two major output from this code<br>
 1.Print Asymmetric friends pair in class.<br>
 2.Calculate number of students include in asymmatric friendship.<br>
 <h8>End Of Module 2</h8>
+<h9> MODULE 3 </h9> <br>
+<p>
+ <b> Step 1 </b> <br>
+   Read the data from the file and store it in arrays as did in first 2 modules. 
+   <b> Step 2 </b> <br>
+   Make a graph between main student with his/her friends the graph will be as: <br>
+  "Abdullah Bin Nazar" -- "Mudassar Hassan";<br>
+  and the other friends same as above.<br>
+  <b> Step 3 </b> <br>
+  Use Breadth-first-search alogrithim as start our walking from form student (Rana Mustehisn) and find the searching name.
+  <b> Step 4 </b> <br>
+  Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.
+  <b> ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </b> <br> 
+   
+
 
