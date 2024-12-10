@@ -49,7 +49,7 @@ Two major output from this code<br>
 <b> MODULE 3 </b> <br>
 <p>
  <b> Step 1 </b> <br>
-   Read the data from the file and store it in arrays as did in first 2 modules. 
+   Read the data from the file and store it in arrays as did in first 2 modules. <br>
    <b> Step 2 </b> <br>
    Make a graph between main student with his/her friends the graph will be as: <br>
   "Abdullah Bin Nazar" -- "Mudassar Hassan";<br>
