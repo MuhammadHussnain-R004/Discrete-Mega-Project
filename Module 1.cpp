@@ -1,5 +1,4 @@
 #include <iostream>
-#include<unordered_map>
 #include <fstream>
 #include <sstream>
 using namespace std;
@@ -26,22 +25,19 @@ void readdata(string st[], string f[][5],int SIZE)
 
 void countfriends(string st[], string f[][5], int friendcout[], int SIZE)
 {
-    unordered_map<string, int> friendcountMap;
     for (int i = 0; i < SIZE; i++)
         {
+            for(int j=0; j<SIZE; j++)
+          {
         for (int j = 0; j < 5; j++)
          {
             if (!f[i][j].empty())
                 {
-                friendcountMap[f[i][j]]++;
+                friendcout++;
             }
         }
+          }
     }
-
-    for (int i = 0; i < SIZE; i++)
-        {
-        friendcout[i] = friendcountMap[st[i]];
-       }
 }
 
 void popular(string st[], int friendcout[], int SIZE)
