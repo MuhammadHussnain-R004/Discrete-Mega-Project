@@ -38,6 +38,7 @@ int main() {
         }
     }
     cout << "ASYMMETRIC PAIRS" << endl;
+    int countstudents;
     for (int i = 0; i < totalFriendships; i++) {
         bool isSymmetric = false;
         for (int j = 0; j < totalFriendships; j++) {
@@ -49,7 +50,8 @@ int main() {
         }
         if (isSymmetric==false) {
             cout<< allFriendships[i].student1<< " & " << allFriendships[i].student2<< endl;
+            countstudents++;
         }
-    }
+    } cout<<countstudents<<" Students have Asymmetriic Pairs in Class.";
     return 0;
 }
