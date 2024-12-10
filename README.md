@@ -57,7 +57,7 @@ Two major output from this code<br>
   <b> Step 3 </b> <br>
   Use Breadth-first-search alogrithim as start our walking from form student (Rana Mustehisn) and find the searching name.
   <b> Step 4 </b> <br>
-  Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.
+  Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.<br>
   <b> ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </b> <br> 
 </p>
    
