@@ -60,6 +60,17 @@ Two major output from this code<br>
   Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.<br>
   <b> ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </b> <br> 
 </p>
-   
+
+   <b> MODULE 5 </b> <br>
+<p>
+ <b> findfriendsfunction </b> <br>
+  <p>
+   student variable is local variable and stores the name of student which are entered by user and st[] match name and then procceed friends[] array store the name of student which is entered with his/her friends as it is equal to f[i][j] where i is for main student and j is for friends name.
+  </p>
+    <b> CCfriend function (countcommonfriends) </b> <br>
+    <p>
+     size1 and size2 value is given in int main as when size1 call the findfriends function it return count which is actually the number of friends in having the entered student and when size2 call the findfrinds function same will did and in CCfriends function each friend of is compared and friend1 array and friend2 array are also same as student varaible which holds data temporary just of comparision. 
+    </p>
+
 
 
