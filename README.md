@@ -48,17 +48,17 @@ Two major output from this code<br>
     
 <h1> MODULE 3 <h1>
 <p>
- <b> Step 1 </b> <br>
+ <h3> Step 1 </h3>
    Read the data from the file and store it in arrays as did in first 2 modules. <br>
-   <b> Step 2 </b> <br>
+   <h3> Step 2 </h3> <br>
    Make a graph between main student with his/her friends the graph will be as: <br>
   "Abdullah Bin Nazar" -- "Mudassar Hassan";<br>
   and the other friends same as above.<br>
-  <b> Step 3 </b> <br>
+  <h3> Step 3 </h3> <br>
   Use Breadth-first-search alogrithim as start our walking from form student (Rana Mustehisn) and find the searching name.
-  <b> Step 4 </b> <br>
+  <h3> Step 4 </h3> <br>
   Program first demand some input which will be name of student and then it give the name of his/her two friends. by using BFS alogrithim.<br>
-  <b> ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </b> <br> 
+  <h4>ONLY ABSTRACTE CONCEPT IS MADE STILL NOT PROGRAM </h4><br> 
 </p>
 
    <h1> MODULE 5 </h1> <br>
