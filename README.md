@@ -71,6 +71,12 @@ Two major output from this code<br>
     <p>
      size1 and size2 value is given in int main as when size1 call the findfriends function it return count which is actually the number of friends in having the entered student and when size2 call the findfrinds function same will did and in CCfriends function each friend of is compared and friend1 array and friend2 array are also same as student varaible which holds data temporary just of comparision. 
     </p>
-
-
-
+  <h1>Module 6</h1>
+  <h2>Same as Module 5 Only one new function was added</h2>
+<p>Only One new function Potential was added.In this function we get <br>
+  threshold number(User enters),name of student 1 and student 2,and common count between two friends.<br>
+Inside this function we create a bool ispotential and apply a condition to check wheteher<br>
+  the Common friend count satisfies the minimum threshold criteria or not.<br>
+If it satisfies the condition then this mean potential friendship is possible between two friends.<br>
+and if it will not satisfies the condition then unfortunately potential friendship will not possible between these two.</p>
+<h3>End of module 6.</h3>
